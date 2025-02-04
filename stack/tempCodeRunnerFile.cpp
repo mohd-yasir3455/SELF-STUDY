@@ -1,0 +1,1 @@
+   ans=prev_greater(lst);
