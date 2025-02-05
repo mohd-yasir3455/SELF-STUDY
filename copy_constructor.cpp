@@ -13,12 +13,12 @@ class hero
         this->health = health;
         this->level = level;
     }
-    //copy constructor
-    // hero(hero& temp){
-    //      strcpy(this->name , temp.name);
-    //     this->health = temp.health +5;
-    //     this->level = temp.level;
-    // } 
+   // copy constructor
+    hero(hero& temp){
+         strcpy(this->name , temp.name);
+        this->health = temp.health +5;
+        this->level = temp.level;
+    } 
 
     void print (){
         cout <<"the name is "<<this->name<<endl;
