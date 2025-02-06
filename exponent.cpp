@@ -11,7 +11,7 @@ int power(int a , int b ){
        return a;
     }
     int ans = power(a , b/2);
-//even case 
+     //even case 
     if (b%2==0)
     {
        return ans*ans;
