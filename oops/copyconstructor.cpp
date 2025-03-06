@@ -10,7 +10,7 @@ public:
     {
     }
 
-    student(string name, double cgpa)
+     student(string name, double cgpa)
     {
         this->name = name;
         // create memory for the pointer

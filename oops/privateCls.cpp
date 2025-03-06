@@ -13,7 +13,7 @@ public:
     int a = 3;
 };
 
-class B : private A{
+class B : protected A{
 
 };
 
