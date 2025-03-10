@@ -41,10 +41,8 @@ while (i<pivotIndex && j>pivotIndex)
 }
 void quick_sort(int* arr  , int s   , int e){
     //base case 
-    if (s>=e)
-    {
-       return;
-    }
+    if (s>=e) return;
+    
     //doing partition 
     int p = partition(arr , s ,e);
     //sorting ;eft part
